@@ -1,7 +1,8 @@
-# super_trunfo
+# SUPER TRUNFO
 Criando cartas para um jogo de cartas super trunfo
 
-#Desafio: nível novato#
+# Desafio: nível novato
+
 Criando as Cartas do Super Trunfo
 
 
