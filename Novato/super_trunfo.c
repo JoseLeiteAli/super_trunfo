@@ -93,5 +93,6 @@ int main(){
     printf("\n\nCarta 2: \nEstado: %c \nCódigo: %s \nNome da Cidade: %s \n", estado2, codigo2, cidade2);
     printf("População: %d \nÁrea: %.2f km² \nPIB: %.2f bilhões de reais \nNúmero de Pontos Turísticos: %d", populacao2, area2, pib2, pontoTuristico2);
     printf("\nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.2f reais\n", densidade2, pibPerCapita2);
+    
     return 0;
 }
