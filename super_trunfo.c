@@ -99,7 +99,7 @@ int main(){
     printf("\nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.2f reais\nSuper Poder: %.2f\n", densidade2, pibPerCapita2, superPoder2);
 
     // comparação dos atributos
-    
+
     printf("\n\nComparação de Cartas:\n");
     printf("População: Carta 1 venceu (%d)\n", populacao > populacao2);
     printf("Área: Carta 1 venceu (%d)\n", area > area2);
@@ -109,6 +109,6 @@ int main(){
     printf("PIB per Capita: Carta 1 venceu (%d)\n", pibPerCapita > pibPerCapita2);
     printf("Super Poder: Carta 1 venceu (%d)\n", superPoder > superPoder2);
 
-    
+ 
     return 0;
 }
