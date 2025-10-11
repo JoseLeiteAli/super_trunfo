@@ -247,3 +247,77 @@ Requisitos não funcionais
 
 
 Manter os requisitos não funcionais dos níveis anteriores (usabilidade, legibilidade, corretude, eficiência).
+
+
+# DESENVOLVENTO A LÓGICA
+# Nível Novato:
+Comparação de Cartas – Super Trunfo
+
+Este projeto é a continuação do desafio anterior, onde as cartas do Super Trunfo foram cadastradas. Agora, o objetivo é implementar a lógica de comparação entre duas cartas utilizando um atributo numérico pré-definido no código.
+
+Objetivo do Projeto
+
+Desenvolver um programa em C que compare duas cartas do Super Trunfo e determine a vencedora com base em um único atributo, utilizando estruturas condicionais (if e if-else).
+
+Funcionalidades (Requisitos Funcionais)
+
+Cadastro de Cartas
+O programa deve conter os dados de duas cartas, com os seguintes atributos:
+
+Estado (string)
+
+Código da carta (string)
+
+Nome da cidade (string)
+
+População (int)
+
+Área (float)
+
+PIB (float)
+
+Número de pontos turísticos (int)
+
+Cálculos Obrigatórios
+
+Densidade Populacional: População / Área
+
+PIB per Capita: PIB / População
+
+Comparação de Atributos
+
+Comparar apenas um atributo numérico, escolhido diretamente no código (sem entrada do usuário).
+
+Atributos possíveis: População, Área, PIB, Densidade Populacional ou PIB per Capita.
+
+Regras de Vitória
+
+Para População, Área, PIB e PIB per Capita: vence o maior valor.
+
+Para Densidade Populacional: vence o menor valor.
+
+Exibição do Resultado
+
+Mostrar o atributo utilizado
+
+Mostrar os valores das duas cartas
+
+Indicar qual carta venceu
+
+Requisitos Não Funcionais
+
+Saída do programa clara e compreensível.
+
+Código organizado com nomes de variáveis descritivos.
+
+Comentários explicando cada parte da lógica implementada.
+
+Simplificações do Nível Básico
+
+Apenas duas cartas serão comparadas.
+
+O atributo de comparação será definido diretamente no código.
+
+Não haverá menus ou interação para escolha do atributo.
+
+O foco principal é a lógica de decisão com if e if-else.
